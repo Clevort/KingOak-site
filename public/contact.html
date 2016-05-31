@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+
+<head>
+<!-- this is the contact page -->
+<title>King Oak College</title>
+
+<!-- Meta Tags --> 
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Favicons --> 
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- Stylesheets -->
+<link href="css/styles.css" rel="stylesheet">
+
+</head>
+<!-- designing the page with bootstrap -->
+<!-- this is the contact page -->
+
+<body>
+
+<section class="big-wrap"> <!--will have to wrap content twice to make it so we can slide left and right separately on other pages -->
+<!--  -->
+<!-- mobile nav will be much more like a regular nav -->
+
+<div class="mobile-nav"> 
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html" >About</a></li>
+              <li><a href="studentlife.html" >Student Life</a></li>
+              <li><a href="academics.html" >Academics</a></li>
+              <li><a href="contact.html" >Contact</a></li> 
+            </ul>
+</div>
+
+<!-- main nav will be much more like a page with a list divided in two -->
+
+<div id="wrap"> <!-- shit I hope this is right -->
+
+<!-- main nav left side of page - align center -->  
+  <header class="main-nav">
+
+      <div class="row">
+
+        <article class="col-md-6">
+          <div>
+            <ul class="main-nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="studentlife.html">Student Life</a></li>
+              <li><a href="academics.html">Academics</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+          </div>
+        </article>
+
+<!-- main nav right side of page - logo needs to align center -->
+         <article class="col-md-6">
+          <div>
+            <a href="index.html"><img class="logo" src="images/logo.png" alt="logo" /></a>
+          </div>
+        </article>
+
+      </div>
+       
+  </header>
+
+<!-- small top section with text - needs left and right callouts -->
+<section class="header-strip">
+
+  <div class="row">
+          <article class="header-strip col-md-6"> <!-- left -->
+           <h3>title</h3>
+          </article>
+
+          <article class="header-strip col-md-6"> <!-- right -->
+           <h3>title</h3>
+          </article>
+  </div>
+
+<!-- menu hamburger in small top section -->
+  	<div>
+  
+  		<a></a>
+
+	</div>
+
+</section> <!-- end header-strip -->
+
+<!-- main content on page -->
+<div id="content">
+
+<section class="container">
+
+  <div class="row">
+<!--information -->
+        <article class="col-md-6">
+          <div>     
+            <h3>Contact Admissions</h3>
+            <h6></h6>
+            <p></p>  
+          </div>
+        </article>
+<!--form -->                      
+      <article class="col-md-6">
+          <h3>Send a message</h3>
+
+        <div id="contact-form-wrap" class="container">
+          <div class="contact-item pad-common ">
+          
+              <form name="myform" id="contactForm" action="sendcontact.php" enctype="form-data" method="post"> 
+                <article>
+                  <input type="text" placeholder="Your Name" id="name" name="name" size="100" class="">
+                </article>
+                <article>
+                   <input type="text" placeholder="Valid email ID" name="email" id="email" size="30" class="">
+                 </article>
+                 <article>
+                  <textarea placeholder="Your Message" name="message" cols="40" rows="3" id="msg" class=""></textarea>
+                  <div class="button">
+                    <button class="button" id="submit" name="submit" type="submit">Send Message</button>
+                  </div>
+                </article>
+             </form>
+
+          </div>
+        </div>
+
+      </article>
+  </div>
+
+<div class="row">
+<!--map -->
+        <article class="col-md-6">
+          <div>     
+            <!--map -->
+          </div>
+        </article>
+
+<!--information/directions -->
+        <article class="col-md-6">
+          <div>     
+            <h6>more information</h6>
+            <p></p>  
+          </div>
+        </article>
+</div>
+
+<!-- three-section footer -->  
+<footer>
+  <div class="row">
+          <article class="col-md-4"> <!-- left -->
+              <p></p>
+          </article>
+
+          <article class="col-md-4"> <!-- center -->
+              <p>Copyright &copy; AWD</p>
+          </article>
+
+          <article class="col-md-4"> <!-- right -->
+              <p></p>
+          </article>
+  </div>
+</footer>
+
+</div>
+<!-- end content -->
+
+
+</div>
+<!-- end wrap -->
+
+</section>
+<!-- end big-wrap -->
+
+<!-- scripts -->
+  <!-- jquery -->
+  <!-- jquery easing js  -->
+  <!-- modernizr.js -->
+  <!--  -->
+  <!--  -->
+  <!--  -->
+<script>
+</script>
+
+</body>
+</html>
